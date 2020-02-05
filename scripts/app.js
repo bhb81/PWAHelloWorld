@@ -1,6 +1,6 @@
 async function fetchHome() {
     var theDiv = document.getElementById("main_container");
-    var content = document.createTextNode("Hello World!");
+    var content = document.createTextNode("<br/>This text was added by the fetchHome function: Hello World!");
     theDiv.appendChild(content);
 }
 
@@ -9,7 +9,7 @@ window.addEventListener('load', async e => {
 
     if ('serviceWorker' in navigator) {
         try {
-            navigator.serviceWorker.register('serviceWorker.js');
+            navigator.serviceWorker.register('scripts/serviceWorker.js');
             console.log('SW registered');
 
         } catch (error) {
