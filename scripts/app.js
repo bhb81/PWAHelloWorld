@@ -1,5 +1,5 @@
 async function fetchHome() {
-    var theDiv = document.getElementById("container");
+    var theDiv = document.getElementById("main_container");
     var content = document.createTextNode("Hello World!");
     theDiv.appendChild(content);
 }
