@@ -1,6 +1,7 @@
 const staticAssets = [
     './',
-    './styles.css',
+    './css/bootstrap4.min.css',
+    './css/styles.css',
     './app.js'
 ];
 
@@ -15,6 +16,8 @@ self.addEventListener('fetch', event => {
     const url = new URL(request.url);
     if(url.origin === location.origin) {
         event.respondWith(cacheData(request));
+        var content = document.createTextNode("<br/>This text was added by the fetchHome function: Hello World!");
+        theDiv.appendChild(content);
     } else {
         event.respondWith(networkFirst(request));
     }
