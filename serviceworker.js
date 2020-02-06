@@ -2,7 +2,10 @@ const staticAssets = [
     './',
     './css/bootstrap4.min.css',
     './css/styles.css',
-    './app.js'
+    './app.js',
+    './js/jquery331.slim.min.js',
+    './js/b4popper.min.js',
+    './js/b4.min.js'
 ];
 
 self.addEventListener('install', async event => {
