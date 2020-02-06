@@ -41,7 +41,8 @@ async function networkFirst(request) {
         return response;
     } catch (error){
         return await cache.match(request);
-
+        var offline = document.createTextNode("Offline");
+        offline.appendChild(offline);
     }
 
 }
