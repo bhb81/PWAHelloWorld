@@ -13,9 +13,9 @@
    version="1.1"
    id="svg3721"
    sodipodi:docname="icon2.svg"
-   inkscape:export-filename="T:\dev\working\PWA\PWAHelloWorld\images\icons\icon-256x256.png"
-   inkscape:export-xdpi="245.75999"
-   inkscape:export-ydpi="245.75999"
+   inkscape:export-filename="T:\dev\working\PWA\PWAHelloWorld\images\icons\icon-512x512.png"
+   inkscape:export-xdpi="491.51999"
+   inkscape:export-ydpi="491.51999"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata3727">
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,7 +45,7 @@
      id="namedview3723"
      showgrid="false"
      inkscape:zoom="8.29"
-     inkscape:cx="31.905911"
+     inkscape:cx="13.811822"
      inkscape:cy="50"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
