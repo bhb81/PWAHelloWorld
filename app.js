@@ -1,6 +1,6 @@
 async function fetchHome() {
     var theDiv = document.getElementById("container");
-    var content = document.createTextNode("This text was added by the fetchHome function: Hello World!");
+    var content = document.createTextNode("Now offline");
     theDiv.appendChild(content);
 }
 
