@@ -1,7 +1,7 @@
 async function fetchHome() {
     var theDiv = document.getElementById("container");
-    var content = document.createTextNode("Now offline");
-    theDiv.appendChild(content);
+    var content = document.createTextNode("Now Online");
+    document.getElementById(theDiv).innerHTML = content;
 }
 
 window.addEventListener('load', async e => {
