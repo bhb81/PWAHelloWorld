@@ -1,7 +1,5 @@
 async function fetchHome() {
-    var theDiv = document.getElementById("container");
-    var content = "Now Online";
-    document.getElementById(theDiv).innerHTML = content;
+    document.getElementById("container").innerHTML = "Now Online";
 }
 
 window.addEventListener('load', async e => {
