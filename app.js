@@ -1,6 +1,6 @@
 async function fetchHome() {
-    var theDiv = document.getElementById("main_container");
-    var content = document.createTextNode("<br/>This text was added by the fetchHome function: Hello World!");
+    var theDiv = document.getElementById("container");
+    var content = document.createTextNode("This text was added by the fetchHome function: Hello World!");
     theDiv.appendChild(content);
 }
 
