@@ -1,6 +1,6 @@
 async function fetchHome() {
     var theDiv = document.getElementById("container");
-    var content = document.createTextNode("Now Online");
+    var content = "Now Online";
     document.getElementById(theDiv).innerHTML = content;
 }
 
